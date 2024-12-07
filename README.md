@@ -1,4 +1,4 @@
-# VaccinePredictor-H1N1
+# Predicting Vaccination Patterns Using 2009 H1N1 Flu Pandemic Data
 Predict whether people got H1N1 using data collected in the National 2009 H1N1 Flu Survey
 
 ## Overview
