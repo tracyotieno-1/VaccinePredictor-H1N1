@@ -98,7 +98,7 @@ The confusion matrix evaluates the performance of the logistic regression model 
 The logistic Model is the best-performing model since it has the highest area under the curve of 0.94
 
 ### Conclusion
-The H1N1 vaccine uptake dataset analysis revealed critical factors influencing vaccine adoption, such as perceived risk, doctor recommendations, and behavioral factors. Despite the class imbalance in the data, careful preprocessing and model selection, including the use of logistic regression, produced a highly accurate and balanced model. The findings suggest that increasing perceived risk and encouraging doctor recommendations could be effective strategies to boost vaccine uptake. While the logistic regression model provided the best performance, further improvements could be made through feature engineering or exploring more advanced models.
+The H1N1 vaccine uptake dataset analysis revealed critical factors influencing vaccine adoption, such as perceived risk, doctor recommendations, and behavioral factors. Despite the class imbalance in the data, careful preprocessing and model selection, including the use of logistic regression, produced a highly accurate and balanced model. The findings suggest that increasing perceived risk and encouraging doctor recommendations could be effective strategies to boost vaccine uptake.
 
 ### Recommendations
 1. Target education campaigns to raise awareness about the perceived risk of H1N1, especially for those with lower risk perception.
