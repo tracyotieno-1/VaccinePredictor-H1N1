@@ -62,25 +62,25 @@ The bar chart highlights the influence of doctor recommendations on H1N1 vaccine
 Four models were evaluated: a baseline model, logistic regression, decision tree, and random forest. The key results are as follows:
 
 ##### Logistic Regression:
-Test Accuracy: 0.8722
-Precision (Class 1): 0.89, Recall: 0.86, F1-Score: 0.87
-Precision (Class 0): 0.86, Recall: 0.89, F1-Score: 0.87
-Confusion Matrix: 3055 True Negatives, 382 False Positives, 497 False Negatives, 2942 True Positives
-Best performing model in terms of accuracy and balanced metrics.
+- Test Accuracy: 0.8722
+- Precision (Class 1): 0.89, Recall: 0.86, F1-Score: 0.87
+- Precision (Class 0): 0.86, Recall: 0.89, F1-Score: 0.87
+- Confusion Matrix: 3055 True Negatives, 382 False Positives, 497 False Negatives, 2942 True Positives
+- Best performing model in terms of accuracy and balanced metrics.
 
 ##### Random Forest:
-Training Accuracy: 0.9712
-Test Accuracy: 0.8266
-Precision (Class 1): 0.77, Recall: 0.94, F1-Score: 0.84
-Precision (Class 0): 0.92, Recall: 0.71, F1-Score: 0.80
-Confusion Matrix: 2444 True Negatives, 993 False Positives, 199 False Negatives, 3240 True Positives
-Potential overfitting indicated by the large gap between training and test accuracy.
+- Training Accuracy: 0.9712
+- Test Accuracy: 0.8266
+- Precision (Class 1): 0.77, Recall: 0.94, F1-Score: 0.84
+- Precision (Class 0): 0.92, Recall: 0.71, F1-Score: 0.80
+- Confusion Matrix: 2444 True Negatives, 993 False Positives, 199 False Negatives, 3240 True Positives
+- Potential overfitting indicated by the large gap between training and test accuracy.
 
 ##### Decision Tree:
-Test Accuracy: 0.8040
-Precision (Class 1): 0.81, Recall: 0.80, F1-Score: 0.80
-Precision (Class 0): 0.80, Recall: 0.81, F1-Score: 0.81
-Confusion Matrix: 2789 True Negatives, 648 False Positives, 700 False Negatives, 2739 True Positives
+- Test Accuracy: 0.8040
+- Precision (Class 1): 0.81, Recall: 0.80, F1-Score: 0.80
+- Precision (Class 0): 0.80, Recall: 0.81, F1-Score: 0.81
+- Confusion Matrix: 2789 True Negatives, 648 False Positives, 700 False Negatives, 2739 True Positives
 
 
 Overall, logistic regression achieved the best balance of accuracy, precision, recall, and F1-score across both classes.
